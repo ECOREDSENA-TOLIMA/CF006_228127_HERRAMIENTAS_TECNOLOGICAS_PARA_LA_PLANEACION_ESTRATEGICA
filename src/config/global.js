@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Evaluación de la seguridad de la información en las organizaciones',
+    descripcionCurso:
+      'La seguridad de la información en las organizaciones es un proceso que se sugiere, todas deben realizarlo con el fin de evaluar las estrategias adoptadas para la gestión de las vulnerabilidades y que estas no puedan afectarla, generando incidentes que pueden terminar en hechos más complejos para la misma organización.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -31,28 +33,73 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Gestión de vulnerabilidades',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Metodologías',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Herramientas',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Activos de información',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Técnicas de recolección de información',
+            hash: 't_1_4',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Evaluación de la seguridad de la información',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Establecimiento del alcance',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Identificación de activos',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Identificación de vulnerabilidades',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Identificación de amenazas',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Establecimiento de salvaguardas',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Evaluación del riesgo',
+            hash: 't_2_6',
+          },
+          {
+            numero: '2.7',
+            titulo: 'Tratamiento del riesgo',
+            hash: 't_2_7',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -85,6 +132,11 @@ export default {
       },
       {
         icono: 'fas fa-download',
+        titulo: 'Descargar PDF',
+        download: 'downloads/CFA_06_228127.zip',
+      },
+      {
+        icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
       },
@@ -97,32 +149,202 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1. Metodologías',
+      referencia:
+        '<em>NIST National Institute of Standards and Technology. (2023). CYBERSECURITY FRAMEWORK</em>',
+      tipo: 'Web',
+      link: 'https://www.nist.gov/cyberframework/framework',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1. Metodologías',
+      referencia:
+        '<em>OWASP Open Web Aplication Security Projects. (2023). WSTG - Stable.</em>',
+      tipo: 'Web',
+      link: 'https://owasp.org/www-project-web-security-testing-guide/stable/',
+    },
+    {
+      tema: '1. Metodologías',
+      referencia:
+        '<em>ISSAF. (2006). Information Systems Security Assesment Framework ISSAF Draft 0.2.1</em>',
+      tipo: 'Documento',
+      link:
+        'http://cuchillac.net/archivos/pre_seguridad_pymes/2_hakeo_etico/lects/metodologia_oissg.pdf',
+    },
+    {
+      tema: '1. Metodologías',
+      referencia:
+        '<em>ISECOM. OSSTMM Open Source Security Testing Methodology. (s.f). The open source security testing methodology manual.</em>',
+      tipo: 'Documento',
+      link: 'https://www.isecom.org/OSSTMM.3.pdf',
+    },
+    {
+      tema: '1. Metodologías',
+      referencia:
+        '<em>PTES Penetratiion Testing Excecution Standard. (2012). PTES Technical Guidelines.</em>',
+      tipo: 'Guía',
+      link:
+        'http://www.pentest-standard.org/index.php/PTES_Technical_Guidelines',
+    },
+    {
+      tema: '1. Metodologías',
+      referencia:
+        '<em>OWASP TOP 10. ¿Qué ha cambiado en el Top 10 para 2021?</em>',
+      tipo: 'Web',
+      link: 'https://owasp.org/Top10/',
+    },
+    {
+      tema: '1. Metodologías',
+      referencia:
+        '<em>Metodología ISSAF. Approach & Methodology. Página 14.</em>',
+      tipo: 'Web',
+      link:
+        'http://cuchillac.net/archivos/pre_seguridad_pymes/2_hakeo_etico/lects/metodologia_oissg.pdf',
+    },
+    {
+      tema: '1.3. Activos de información',
+      referencia: 'MinTIC. (2020). Instrumento de evaluación MSPI. ',
+      tipo: 'Hoja de calculo',
+      link:
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_Instrumento_Evaluacion_MSPI.xlsx',
+    },
+    {
+      tema: '2.5. Establecimiento de salvaguardas',
+      referencia:
+        '<em>Center for Internet Security. (2023). CIS Critical Security Controls.</em>',
+      tipo: 'Web',
+      link: 'https://www.cisecurity.org/controls',
+    },
+    {
+      tema: '2.5. Establecimiento de salvaguardas',
+      referencia:
+        '<em>Center for Internet Security. (2023). CIS Benchmarks List. Lista de puntos de referencia de la CIE.</em>',
+      tipo: 'Web',
+      link: 'https://www.cisecurity.org/cis-benchmarks/',
+    },
+    {
+      tema: '2.5 Establecimiento de salvaguardas',
+      referencia:
+        'ICONTEC (2018). NORMA GTC-ISO- 19011:2018 Directrices para la auditoría de los sistemas de gestión.',
+      tipo: 'Libros digitales',
+      link:
+        'http://siga.unal.edu.co/images/Modulos/Ova/Capacitacion_Guia_tecnica_auditoria_NTC_ISO_19011_2018.pdf',
+    },
+    {
+      tema: '2.5 Establecimiento de salvaguardas',
+      referencia:
+        'ICONTEC (2018). NTC-ISO 31000:2018 - Gestión del Riesgo. Directrices.',
+      tipo: 'Libros digitales',
+      link:
+        'https://www.ramajudicial.gov.co/documents/5454330/14491339/Norma.ISO.31000.2018.Espanol.pdf/cb482b2c-afd9-4699-b409-0732a5261486',
+    },
+    {
+      tema: '2.5 Establecimiento de salvaguardas',
+      referencia:
+        'ICONTEC (2018). NTC-ISO-IEC 27001:2013 - Tecnología de la información. Técnicas de seguridad. Sistemas de gestión de la seguridad de la información. requisitos.',
+      tipo: 'Libros digitales',
+      link:
+        'https://serviciocivil.gov.co/sites/default/files/marco-legal/2006_03_22_NTC-ISO-IEC%2027001.pdf',
+    },
+    {
+      tema: '2.5 Establecimiento de salvaguardas',
+      referencia:
+        'Fernández Rivero, P. P. & Gómez Fernández, L. (2018). Cómo implantar un SGSI según UNE-EN ISO/IEC 27001 y su aplicación en el Esquema Nacional de Seguridad. AENOR - Asociación Española de Normalización y Certificación. (pp 36-57). ',
+      tipo: 'Libros digitales',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/53624?page=36',
+    },
+    {
+      tema: '2.5 Establecimiento de salvaguardas',
+      referencia:
+        'Formato registro de salvaguardar para la gestión del riesgo.',
+      tipo: 'Web',
+      link:
+        'https://f.hubspotusercontent30.net/hubfs/4444632/Declaraci%C3%B3n%20de%20aplicabilidad%20Excel%20-%20Anexo%20ISO%20270012013.xlsx',
+    },
+    {
+      tema: '2.6 Evaluación del riesgo',
+      referencia:
+        'MinTIC. Formato Instrumentos de evaluación de la seguridad de la información. ',
+      tipo: 'Web',
+      link:
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_Instrumento_Evaluacion_MSPI.xlsx',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em>Bug</em>',
+      significado:
+        'Error en un paquete de <em>software</em>, que puede generar fallos en el procesamiento de la información.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Evidencia',
+      significado: 'Conjunto de información que respaldan un hecho o evento.',
+    },
+    {
+      termino: 'Hallazgo de auditoria',
+      significado:
+        'Son los evento o registros que sirven para reconocer su un control se está aplicando adecuadamente o no.',
+    },
+    {
+      termino: 'Indicador',
+      significado:
+        'Son unidades de medición que facilitan la evaluación de una acción realizada.',
+    },
+    {
+      termino: '<em>Pentesting</em>',
+      significado:
+        'También llamado pruebas de penetración consiste en el conjunto de técnicas de acceso no autorizado a sistemas de información, con el fin de identificar posibles vulnerabilidades.',
+    },
+    {
+      termino: 'Registros',
+      significado:
+        'Conjunto de datos, que sirve para almacenar la información de un hecho, evento, persona u objeto.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'ICONTEC (2018). NORMA GTC-ISO- 19011:2018 Directrices para la auditoría de los sistemas de gestión. ',
+      link:
+        'http://siga.unal.edu.co/images/Modulos/Ova/Capacitacion_Guia_tecnica_auditoria_NTC_ISO_19011_2018.pdf',
+    },
+    {
+      referencia:
+        'INCIBE (2017). Gestión de riesgos - Una guía de aproximación para el empresario. ',
+      link:
+        'https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_ciberseguridad_gestion_riesgos_metad.pdf',
+    },
+    {
+      referencia:
+        'ISO27001. (2020). <em>Evaluación del desempeño en ISO 27001.</em> ',
+      link: 'https://normaiso27001.es/evaluacion-del-desempeno-en-iso-27001/',
+    },
+    {
+      referencia:
+        'MINTIC. (2016). Seguridad y Privacidad de la Información - Guía de gestión de riesgos. ',
+      link:
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_G7_Gestion_Riesgos.pdf',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Estándares y Tecnología. (2018). Marco para la mejora de la seguridad cibernética en infraestructuras críticas. ',
+      link:
+        'https://www.nist.gov/system/files/documents/2018/12/10/frameworkesmellrev_20181102mn_clean.pdf',
+    },
+    {
+      referencia:
+        'OSSTMM 3. (2022). The Open Source Security Testing Methodology Manual. ',
+      link: 'https://www.isecom.org/research.html',
+    },
+    {
+      referencia:
+        'Tamayo Saborit, M. & González Capote, D. (2020). La gestión de riesgos: herramienta estratégica de gestión empresarial. Editorial Universo Sur. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/131885',
+    },
+    {
+      referencia: 'Tithink. (2015). Gestión de Riesgos Magerit. ',
+      link: 'https://www.tithink.com/publicacion/MAGERIT.pdf',
     },
   ],
   creditos: [
@@ -131,13 +353,13 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del equipo',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -149,25 +371,56 @@ export default {
           cargo: 'Nombre del rol',
           centro: 'Nombre centro de formación',
         },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo Desarrollo Curricular',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrector de Estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'María Inés Machado López',
+          cargo: 'Metodóloga',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
       ],
     },
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'José Yobani Penagos Mora',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Oscar Daniel Espitia Marin',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Producción Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Oscar Daniel Espitia Marín',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -175,14 +428,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Gilberto Naranjo Farfán',
+          cargo: 'Validación de contenidos accesibles',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Jorge Bustos Gómez',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },

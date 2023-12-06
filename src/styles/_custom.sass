@@ -1,15 +1,20 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: rotacion1 3.6s linear infinite
     position: absolute
-    top: 40%
-    right: 50%
+    top: 68%
+    right: 25%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 30%
+    right: 80%
 
+@keyframes rotacion1
+  from 
+    transform: rotate(0deg)
+  to 
+    transform: rotate(360deg)
 
 @keyframes float1
   0%
@@ -17,3 +22,203 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal__componente
+  h1
+    color: $black
+.banner-principal__descripcion
+  p
+    color: $black
+.banner-principal__accion
+  a > *
+    color: $white
+
+a.boton
+  i, span
+    color: $white
+
+.titulo-herramientas 
+  padding: 1rem
+  background-color: $color-acento-contenido
+  color: $white
+  border-radius: 0 1.5rem
+
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+.slyder-a__bullets__item
+  background-color: $color-primario
+.slyder-a__bullets__item.slyder-a__bullets__item--active
+    background-color: $color-acento-botones !important
+
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+  color: #FFFFFF !important
+  i
+    color: #FFFFFF !important
+
+  
+.cajon.color-primario
+  background-color: lighten($color-primario, 45%)
+
+.tarjeta.color-acento-botones
+  background-color: lighten($color-acento-botones, 32%)
+  *
+    color: $black
+  
+.tarjeta.color-primario
+  background-color: lighten($color-primario, 45%)
+  *
+    color: $black
+.tarjeta-a
+  border-radius: 20px
+.tarjeta-a.color-primario
+  background-color: $color-primario
+
+.tarjeta.color-secundario,.cajon.color-secundario
+  background-color: lighten($color-secundario, 30%)
+
+.tarjeta.color-acento-contenido
+  background-color: lighten($color-acento-contenido, 45%)
+  h4,p
+    color: $black
+
+.tema1,.tema3,.tema4
+  .img-infografica__item
+    width: 5%
+  .img-infografica__item__numero
+    color: transparent
+  .bloque-texto-a.color-primario
+    background-color: #E8E8E8
+
+.bloque-texto-c.color-primario //,.bloque-texto-d.color-primario
+  background-color: lighten($color-primario, 38%)
+.tema2,.tema3
+  .bloque-texto-b.color-primario:before
+    background-color: lighten($color-primario, 38%)
+  .bloque-texto-d.color-primario:before
+    background-color: lighten($color-primario, 38%)
+
+tr.color-acento-botones
+  th
+    color: $color-acento-botones
+
+    
+.fas.fa-circle.fa-cfx
+  font-size: 0.5em
+  top: 7px
+
+  
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #050505
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #EEFFDE !important
+
+.crd--othersA
+  &::before 
+    background-color: #E6FFF9 !important
+
+.crd--othersB
+  &::before 
+    background-color: #EEFFDE !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+.img250
+  width: 250px  
+.img100
+  width: 100px  
+  
+@media only screen and (width: 768px) 
+  .col-ipad
+    margin-right: 5rem !important
+    width: 80%
+  .ipad-b
+    .slyder-b__slyde
+      .row
+        margin-right: 5rem !important
+        width: 80%
+@media only screen and (width: 390px) 
+  .col-ipad
+    margin-right: 5rem !important
+    width: 80%
+  .ipad-b
+    .slyder-b__slyde
+      .row
+        margin-right: 5rem !important
+        width: 80%
+
+.img-infografica__card
+  width: 400px

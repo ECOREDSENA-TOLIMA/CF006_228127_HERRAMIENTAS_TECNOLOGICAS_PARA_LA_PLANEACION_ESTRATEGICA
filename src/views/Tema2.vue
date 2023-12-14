@@ -113,7 +113,7 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.3 Identificación de vulnerabilidades
 
-    p.mb-5(data-aos="flip-left") Las amenazas se consideran cualquier debilidad o falencia que puede presentarse en un activo de información, que está presente y que podría ser aprovechada por un tercero, es así como la identificación de estas de manera temprana, permite establecer un plan de evaluación para su identificación, como se vio anteriormente hay algunas iniciativas como la del #[em Top] 10 de Owasp, el cual consolida las 10 vulnerabilidades más comunes en aplicaciones web, entre las que se destacan:
+    p.mb-5(data-aos="flip-left") Las amenazas se consideran cualquier debilidad o falencia que puede presentarse en un activo de información, que está presente y que podría ser aprovechada por un tercero, es así como la identificación de estas de manera temprana, permite establecer un plan de evaluación para su identificación, como se vio anteriormente hay algunas iniciativas como la del #[em Top] 10 de Owasp, el cual consolida las 10 vulnerabilidades más comunes en aplicaciones #[em web], entre las que se destacan:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-12.col-lg-10.mb-4
@@ -304,7 +304,7 @@
                   | Sistemas operativos #[em Linux] como #[em Windows].
                 li.mb-0
                   i.fas.fa-circle.fa-cfx(style="color:#304C8E")
-                  | Servicios web, bases de datos.
+                  | Servicios #[em web], bases de datos.
                 li.mb-0
                   i.fas.fa-circle.fa-cfx(style="color:#304C8E")
                   | Hipervisores.

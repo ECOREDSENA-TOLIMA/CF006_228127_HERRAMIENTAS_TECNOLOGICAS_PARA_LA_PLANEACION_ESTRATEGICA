@@ -21,7 +21,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Metodologías
 
-    p.mb-5(data-aos="flip-left") Gestionar las vulnerabilidades que pueden convertirse en una amenaza para una organización, es un trabajo complejo que requiere identificar, clasificar, priorizar y resolver las vulnerabilidades o debilidades dentro de los sistemas operativos, aplicaciones empresariales, aplicaciones de usuario final y navegadores web de una organización. La complejidad de este proceso depende del tamaño de la organización y de la cantidad de sus activos de información. En la siguiente figura se caracterizan dichos activos de información.
+    p.mb-5(data-aos="flip-left") Gestionar las vulnerabilidades que pueden convertirse en una amenaza para una organización, es un trabajo complejo que requiere identificar, clasificar, priorizar y resolver las vulnerabilidades o debilidades dentro de los sistemas operativos, aplicaciones empresariales, aplicaciones de usuario final y navegadores #[em web] de una organización. La complejidad de este proceso depende del tamaño de la organización y de la cantidad de sus activos de información. En la siguiente figura se caracterizan dichos activos de información.
 
     .row.justify-content-center.mb-5
       .col-12.col-lg-10(data-aos="fade-left")
@@ -148,7 +148,7 @@
               tr(style="background-color:#F6F6F6")
                 th ID
                 td.text-center Identificador
-                td.text-center 
+                td 
                   p.mb-1 ID.AM
                   p.mb-1 ID.BE
                   p.mb-1 ID.GV
@@ -226,9 +226,9 @@
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-down") 
       .col-lg-9.col-12.mb-3.mb-lg-0
         p.mb-3(data-aos="flip-left") Organización sin fines lucrativos, la cual busca ayudar a visibilizar las vulnerabilidades en aplicaciones para el mejoramiento de la seguridad, a partir de una adecuada gestión del riesgo, siendo este un pilar fundamental para el desarrollo y aplicación de su metodología.
-        p.mb-4(data-aos="flip-left") Owasp, provee de #[em framework] abierto el cual permite aplicar auditorias en aplicaciones en especial de tipo web, basados principalmente en pruebas de caja blanca y caja negra y a partir de su ejercicio identificar las vulnerabilidades más representativas y presentes en la actualidad en su Owasp top 10.
+        p.mb-4(data-aos="flip-left") Owasp, provee de #[em framework] abierto el cual permite aplicar auditorias en aplicaciones en especial de tipo #[em web], basados principalmente en pruebas de caja blanca y caja negra y a partir de su ejercicio identificar las vulnerabilidades más representativas y presentes en la actualidad en su Owasp top 10.
         .p-4.cajon.color-primario.mb-5(data-aos="fade-down-right")
-          p Lo anterior permite generar reportes sobre las vulnerabilidades que más se encuentran en las aplicaciones web, en su reporte el #[em Owasp Top] 10 2021, se puede apreciar la clasificación frente al informe previo del año 2017, consultando en material complementario de esta guía.
+          p Lo anterior permite generar reportes sobre las vulnerabilidades que más se encuentran en las aplicaciones #[em web], en su reporte el #[em Owasp Top] 10 2021, se puede apreciar la clasificación frente al informe previo del año 2017, consultando en material complementario de esta guía.
           p.mb-0 En este reporte se observa el comportamiento de las vulnerabilidades identificadas, teniendo en cuenta:
       .col-lg-3.col-10
         figure
@@ -252,12 +252,12 @@
             p.ms-3.mb-1 • Exposición y posible modificación de datos sensibles por parte de un ciberdelincuente. 
             p.ms-3 • Bajo ciertas circunstancias podría permitir al ciberdelincuente tomar el control del servidor.
           div(numero="4" titulo="Diseño inseguro (<em>Insecure Desing</em>)") 
-            p A la hora de desarrollar una aplicación web es primordial incluir la seguridad de la aplicación desde la fase del diseño, ya que este año se ha incluido esta nueva categoría debido a la gran cantidad de aplicaciones que no la cumplen. Muchas aplicaciones cuentan con defectos en el diseño de las mismas. 
+            p A la hora de desarrollar una aplicación #[em web] es primordial incluir la seguridad de la aplicación desde la fase del diseño, ya que este año se ha incluido esta nueva categoría debido a la gran cantidad de aplicaciones que no la cumplen. Muchas aplicaciones cuentan con defectos en el diseño de las mismas. 
             p ¿Qué impacto puede tener esto en mi empresa?
             p.ms-3.mb-1 • Exposición y posible modificación de datos por un ciberdelincuente.
             p.ms-3 • Acceso al servidor/aplicación por parte de un ciberdelincuente con permisos de administrador o usuario. 
           div(numero="5" titulo="Configuración de seguridad defectuosa (<em>Security Misconfiguration</em>)") 
-            p En el entorno de la aplicación web los ciberdelincuentes intentarán acceder mediante cuentas por defecto, versiones obsoletas con vulnerabilidades sin actualizar, directorios desprotegidos, etc. Por ello, tiene que estar todo bien configurado y evitar usar credenciales por defecto, como puede ser en el caso de nuestro servidor, aplicaciones o dispositivos. 
+            p En el entorno de la aplicación #[em web] los ciberdelincuentes intentarán acceder mediante cuentas por defecto, versiones obsoletas con vulnerabilidades sin actualizar, directorios desprotegidos, etc. Por ello, tiene que estar todo bien configurado y evitar usar credenciales por defecto, como puede ser en el caso de nuestro servidor, aplicaciones o dispositivos. 
             p ¿Qué impacto puede tener esto en mi empresa?
             p.ms-3 • Acceso no autorizado al sistema por parte del ciberdelincuente.
           div(numero="6" titulo="Componentes vulnerables y obsoletos (<em>Vulnerable and Outdated Components</em>)") 
@@ -268,22 +268,22 @@
             p Esto sucede cuando en las interfaces de acceso no se controla el número de intentos de autenticación, hay una baja complejidad de las contraseñas o no se implanta un sistema multifactor “2FA”. Esto podría permitir a un ciberdelincuente realizar ataques de fuerza bruta o diccionario para ingresar en él o cuando su aplicación permite utilizar contraseñas débiles.
             p ¿Qué impacto puede tener esto en mi empresa?
             p.ms-3 • Los ciberdelincuentes tendrán acceso a cuentas administrativas o de empleados en la aplicación.
-          div(numero="8" titulo="Fallos en el software y en la integridad de los datos (<em>Software and Data Integrity Failures</em>)") 
+          div(numero="8" titulo="Fallos en el <em>software</em> y en la integridad de los datos (<em>Software and Data Integrity Failures</em>)") 
             p Muchas aplicaciones se actualizan de manera automática. Cuando estas actualizaciones no son verificadas los ciberdelincuentes podrían modificarlas cargando sus propias actualizaciones y distribuyéndolas. 
             p ¿Qué impacto puede tener esto en mi empresa?
             p.ms-3 • Inclusión de código no deseado por un ciberdelincuente en mi aplicación.
           div(numero="9" titulo="Fallos en el registro y la supervisión de la seguridad (<em>Security Logging and Monitoring Failures</em>)") 
-            p La falta de registros sobre eventos, los denominados logs, en la aplicación o en el sistema, como inicios de sesión (tanto válidos como fallidos). Por ejemplo: que estos registros no se almacenen remotamente impide que se puedan detectar las infracciones.
+            p La falta de registros sobre eventos, los denominados #[em logs], en la aplicación o en el sistema, como inicios de sesión (tanto válidos como fallidos). Por ejemplo: que estos registros no se almacenen remotamente impide que se puedan detectar las infracciones.
             p ¿Qué impacto puede tener esto en mi empresa?
             p.ms-3.mb-1 • Desconocimiento sobre inicios de sesión no autorizados.
             p.ms-3 • Desconocimiento sobre los actos de un ciberdelincuente en nuestro sistema.
           div(numero="10" titulo="Falsificación de solicitud del lado del servidor (<em>Server-side Request Forguery o SSRF</em>)") 
-            p Cuando la aplicación web obtiene un recurso externo y este no valida la URL, un ciberdelincuente podría modificarla con fines malintencionados y realizar peticiones no autorizadas.
+            p Cuando la aplicación #[em web] obtiene un recurso externo y este no valida la URL, un ciberdelincuente podría modificarla con fines malintencionados y realizar peticiones no autorizadas.
             p ¿Qué impacto puede tener esto en mi empresa?
             p.ms-3.mb-1 • Robo de datos sensibles de la empresa.
             p.ms-3 • Acceso a sistemas internos de la empresa.
 
-    p.mb-4(data-aos="flip-left") Dado lo anterior, Owasp, se ha vuelto una metodología practica para la identificación de vulnerabilidades en las aplicaciones web más utilizada por los equipos de desarrollo en los últimos años; quienes quieran explorar y hacer uso de esta metodología, en el material complementario se puede consultar su documento oficial.
+    p.mb-4(data-aos="flip-left") Dado lo anterior, Owasp, se ha vuelto una metodología practica para la identificación de vulnerabilidades en las aplicaciones #[em web] más utilizada por los equipos de desarrollo en los últimos años; quienes quieran explorar y hacer uso de esta metodología, en el material complementario se puede consultar su documento oficial.
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex ISSAF - #[em Information Systems Security Assessment Framework]
@@ -430,7 +430,7 @@
       span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex PTES - #[em Penetration Testing Execution Standard]
       div.titulo-herramientas.d-block.d-md-none PTES - #[em Penetration Testing Execution Standard]
     
-    p.mb-3(data-aos="flip-left") Se consolida como estándar para pruebas de penetración y testing y que puede ser aplicado en cualquier organización, entre sus objetivos se encuentra el de disponer de un marco de trabajo para la realización de auditorías técnicas de seguridad en sistemas de información.
+    p.mb-3(data-aos="flip-left") Se consolida como estándar para pruebas de penetración y #[em testing] y que puede ser aplicado en cualquier organización, entre sus objetivos se encuentra el de disponer de un marco de trabajo para la realización de auditorías técnicas de seguridad en sistemas de información.
     p.mb-5(data-aos="flip-left") Se desarrolla en 7 fases, como se presenta en la siguiente figura:
 
     .row.justify-content-center.mb-5
@@ -457,21 +457,21 @@
         .row
           .col-md-5.col-12.mb-4.mb-md-0
             h4 #[em Inviciti]
-            p Esta herramienta es un escáner para la búsqueda de vulnerabilidades de tipo #[em sql injection en API’s] y aplicaciones web, esta herramienta permite reconocer las vulnerabilidades verificando que estas no sean falsos positivos.
+            p Esta herramienta es un escáner para la búsqueda de vulnerabilidades de tipo #[em sql injection en API’s] y aplicaciones #[em web], esta herramienta permite reconocer las vulnerabilidades verificando que estas no sean falsos positivos.
           .col-md-7.col-12
             figure
               img(src='@/assets/curso/temas/tema1/tema1-13.png', alt='')
         .row
           .col-md-5.col-12.mb-4.mb-md-0
             h4 #[em Acunetix]
-            p Es una de las herramientas más conocidas especializadas en búsqueda de vulnerabilidades en aplicaciones web, API’s y servicios web, permite automatizar una gran cantidad de pruebas y cruzarla con su base de datos la cual almacena más de 7000 vulnerabilidades.
+            p Es una de las herramientas más conocidas especializadas en búsqueda de vulnerabilidades en aplicaciones #[em web], API’s y servicios #[em web], permite automatizar una gran cantidad de pruebas y cruzarla con su base de datos la cual almacena más de 7000 vulnerabilidades.
           .col-md-7.col-12
             figure
               img(src='@/assets/curso/temas/tema1/tema1-14.png', alt='')
         .row
           .col-md-5.col-12.mb-4.mb-md-0
             h4 #[em Intruder]
-            p Esta herramienta también permite realizar búsquedas de vulnerabilidades en aplicaciones web, a partir de la verificación de aproximadamente 10.000 controles de seguridad basados en estándares y marcos de seguridad, además, cuenta con capacidades de integración a entornos de trabajo de equipos de desarrollo de #[em software].
+            p Esta herramienta también permite realizar búsquedas de vulnerabilidades en aplicaciones #[em web], a partir de la verificación de aproximadamente 10.000 controles de seguridad basados en estándares y marcos de seguridad, además, cuenta con capacidades de integración a entornos de trabajo de equipos de desarrollo de #[em software].
           .col-md-7.col-12
             figure
               img(src='@/assets/curso/temas/tema1/tema1-15.png', alt='')
@@ -485,7 +485,7 @@
         .row
           .col-md-5.col-12.mb-4.mb-md-0
             h4 #[em AppTrana]
-            p Este también es un escáner de vulnerabilidades en aplicaciones web y API’s, el cual aplica evaluaciones asociado al top 10 de Owasp, lo que lo convierte en un #[em WAF] adecuado para la vigilancia y monitoreo de las aplicaciones y portales web.
+            p Este también es un escáner de vulnerabilidades en aplicaciones #[em web] y API’s, el cual aplica evaluaciones asociado al top 10 de Owasp, lo que lo convierte en un #[em WAF] adecuado para la vigilancia y monitoreo de las aplicaciones y portales #[em web].
           .col-md-7.col-12
             figure
               img(src='@/assets/curso/temas/tema1/tema1-17.png', alt='')
@@ -499,7 +499,7 @@
         .row
           .col-md-5.col-12.mb-4.mb-md-0
             h4 #[em Nessus]
-            p Este también es un escáner de vulnerabilidades, la cual es muy utilizada para la búsqueda de vulnerabilidades en aplicaciones web, fallas de configuración, y debilidades reconocidas y documentadas, se puede integrar a entornos de trabajo local como en la nube.
+            p Este también es un escáner de vulnerabilidades, la cual es muy utilizada para la búsqueda de vulnerabilidades en aplicaciones #[em web], fallas de configuración, y debilidades reconocidas y documentadas, se puede integrar a entornos de trabajo local como en la nube.
           .col-md-7.col-12
             figure
               img(src='@/assets/curso/temas/tema1/tema1-19.png', alt='')

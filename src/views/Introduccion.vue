@@ -10,7 +10,7 @@
       h1 Introducción
     
     .mb-4(data-aos="zoom-down") 
-      p Un factor importante que deben tener presente hoy en día las organizaciones, es estar un paso adelante de cualquier situación que ponga en riesgo sus activos de información, es por eso que adoptar procesos de evaluación de la seguridad de la información de manera permanente, permite recolectar información importante para la aplicación de acciones correctivas en su infraestructura tecnológica, sistemas de información e incluso ajuste en sus procedimientos operativos en donde se ubican las personas que operan los sistemas, pero que lastimosamente suelen ser el factor más débil de la cadena de a ciberseguridad.
+      p Un factor importante que deben tener presente hoy en día las organizaciones, es estar un paso adelante de cualquier situación que ponga en riesgo sus activos de información, es por eso que adoptar procesos de evaluación de la seguridad de la información de manera permanente, permite recolectar información importante para la aplicación de acciones correctivas en su infraestructura tecnológica, sistemas de información e incluso ajuste en sus procedimientos operativos en donde se ubican las personas que operan los sistemas, pero que lastimosamente suelen ser el factor más débil de la cadena de la ciberseguridad.
 
     figure.mb-4(data-aos="zoom-left")
       .video

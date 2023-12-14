@@ -367,24 +367,30 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
-        },
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable Equipo Desarrollo Curricular',
+          nombre: 'Hernando José Peña Hidalgo',
+          cargo: 'Experto Temático',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
-          nombre: 'Sandra Patricia Hoyos Sepúlveda',
-          cargo: 'Corrector de Estilo',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          nombre: 'Javier Ricardo Luna Pineda',
+          cargo: 'Diseñador Instruccional',
+          centro:
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+        },
+        {
+          nombre: 'Juan Guillermo Zuluaga Saavedra',
+          cargo: 'Expero Temático',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Humberto Arias Díaz',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'María Inés Machado López',
-          cargo: 'Metodóloga',
+          cargo: 'Asesora Metodológica',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
@@ -393,8 +399,8 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'José Yobani Penagos Mora',
-          cargo: 'Diseñador Web',
+          nombre: 'Aruzidna Sánchez Alonso',
+          cargo: 'Diseñadora Web',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
@@ -408,13 +414,18 @@ export default {
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Producctor y Animador Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
           nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Producción Audiovisual',
+          cargo: 'Producctor y Animador Audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Oleg Litvin',
-          cargo: 'Animador',
+          cargo: 'Producctor y Animador Audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
@@ -429,12 +440,12 @@ export default {
       autores: [
         {
           nombre: 'Gilberto Naranjo Farfán',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Validación de Contenidos Accesibles',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Jorge Bustos Gómez',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validación y Vinculación en Plataforma LMS',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],

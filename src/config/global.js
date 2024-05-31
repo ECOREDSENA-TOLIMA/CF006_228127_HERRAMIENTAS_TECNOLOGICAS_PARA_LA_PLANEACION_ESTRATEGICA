@@ -301,47 +301,46 @@ export default {
   referencias: [
     {
       referencia:
-        'ICONTEC (2018). NORMA GTC-ISO- 19011:2018 Directrices para la auditoría de los sistemas de gestión. ',
-      link:
-        'http://siga.unal.edu.co/images/Modulos/Ova/Capacitacion_Guia_tecnica_auditoria_NTC_ISO_19011_2018.pdf',
-    },
-    {
-      referencia:
-        'INCIBE (2017). Gestión de riesgos - Una guía de aproximación para el empresario. ',
+        'INCIBE (2017). Gestión de riesgos - Una guía de aproximación para el empresario.',
       link:
         'https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_ciberseguridad_gestion_riesgos_metad.pdf',
     },
     {
       referencia:
-        'ISO27001. (2020). <em>Evaluación del desempeño en ISO 27001.</em> ',
+        'Instituto Nacional de Estándares y Tecnología. (2018). Marco para la mejora de la seguridad cibernética en infraestructuras críticas.',
+      link:
+        'https://www.nist.gov/system/files/documents/2018/12/10/frameworkesmellrev_20181102mn_clean.pdf',
+    },
+    {
+      referencia: 'ISO27001. (2020). Evaluación del desempeño en ISO 27001.',
       link: 'https://normaiso27001.es/evaluacion-del-desempeno-en-iso-27001/',
     },
     {
       referencia:
-        'MINTIC. (2016). Seguridad y Privacidad de la Información - Guía de gestión de riesgos. ',
+        'MINTIC. (2016). Seguridad y Privacidad de la Información - Guía de gestión de riesgos.',
       link:
         'https://www.mintic.gov.co/gestionti/615/articles-5482_G7_Gestion_Riesgos.pdf',
     },
     {
       referencia:
-        'Instituto Nacional de Estándares y Tecnología. (2018). Marco para la mejora de la seguridad cibernética en infraestructuras críticas. ',
-      link:
-        'https://www.nist.gov/system/files/documents/2018/12/10/frameworkesmellrev_20181102mn_clean.pdf',
+        'OSSTMM 3. (2022). The Open Source Security Testing Methodology Manual.',
+      link: 'https://www.isecom.org/OSSTMM.3.pdf',
     },
     {
       referencia:
-        'OSSTMM 3. (2022). The Open Source Security Testing Methodology Manual. ',
-      link: 'https://www.isecom.org/research.html',
-    },
-    {
-      referencia:
-        'Tamayo Saborit, M. & González Capote, D. (2020). La gestión de riesgos: herramienta estratégica de gestión empresarial. Editorial Universo Sur. ',
+        'Tamayo Saborit, M. & González Capote, D. (2020). La gestión de riesgos: herramienta estratégica de gestión empresarial. Editorial Universo Sur.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/131885',
     },
     {
-      referencia: 'Tithink. (2015). Gestión de Riesgos Magerit. ',
+      referencia: 'Tithink. (2015). Gestión de Riesgos Magerit.',
       link: 'https://www.tithink.com/publicacion/MAGERIT.pdf',
+    },
+    {
+      referencia:
+        'Universidad Nacional de Colombia. (2018). Guía técnica colombiana ISO- 19011:2018.',
+      link:
+        'http://siga.unal.edu.co/images/Modulos/Ova/Capacitacion_Guia_tecnica_auditoria_NTC_ISO_19011_2018.pdf',
     },
   ],
   creditos: [
@@ -423,11 +422,6 @@ export default {
         {
           nombre: 'Oleg Litvin',
           cargo: 'Producctor y Animador Audiovisual',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
-        },
-        {
-          nombre: 'Oscar Daniel Espitia Marín',
-          cargo: 'Actividad Didáctica',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],

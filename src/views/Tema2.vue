@@ -87,11 +87,11 @@
                 td Pedro Pérez - Talento humano
               tr
                 td Financiero
-                td Juan de la oz - Contador
+                td Juan de la Oz - Contador
               tr
                 th Información
                 td Información de clientes
-                td Juan muñoz - Comercial
+                td Juan Muñoz - Comercial
               tr
                 th(rowspan="2") #[em Hardware]
                 td Servidor de base de datos
@@ -203,7 +203,7 @@
                 img(src='@/assets/curso/temas/tema2/tema2-5.png', alt='')
       .col-12.col-lg-10
         p Todas estas vulnerabilidades y muchas más pueden estar presentes en los activos de información de la organización sin darse cuenta, podrían ser la entrada para que una amenaza aproveche y se pueda materializar.
-        p Su reconocimiento #[b NO] debe hacerse de manera general, si no por cada uno de los activos y valorar sus dimensiones, permitiendo caracterizarlas y realizar la evaluación acertada.
+        p Su reconocimiento #[b NO] debe hacerse de manera general, sino por cada uno de los activos y valorar sus dimensiones, permitiendo caracterizarlas y realizar la evaluación acertada.
 
     Separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -285,7 +285,7 @@
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/fig-7a.svg', :alt='altImg7')
           img.d-block.d-md-none(src='@/assets/curso/temas/tema2/fig-7b.svg', :alt='altImg7') 
-          figcaption Nota: adaptado de: #[a(href="https://www.hkmexico.com/controles-esenciales-de-ciberseguridad-para-tu-negocio/" target="_blank" style="color:blue") https://www.hkmexico.com/controles-esenciales-de-ciberseguridad-para-tu-negocio/]
+          figcaption Nota: adaptado de: #[a(href="https://blog.segu-info.com.ar/2023/04/controles-cis-esenciales-de.html" target="_blank" style="color:blue") https://blog.segu-info.com.ar/2023/04/controles-cis-esenciales-de.html]
 
     p.mb-5(data-aos="flip-left") Adicionalmente, cuenta con una recopilación de sugerencias específicas para productos, en los cuales adopta dichos controles, de acuerdo a las características de cada uno de los productos, generando guías de endurecimiento que facilita a los administradores de estos sistemas de información su adaptación.
 
@@ -332,7 +332,7 @@
     #t_2_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.6 Evaluación del riesgo
 
-    p.mb-3(data-aos="flip-left") Las acciones adelantadas a partir del ejercicio de evaluación, deberán de reducir considerablemente la probabilidades de que las vulnerabilidades sean aprovechadas por las amenazas, y estas generen un incidente que lleve a la organización a un incidente que afecte sus operaciones, e incluso posibilite perder parte de su información, para garantizar que las acciones sean aplicadas adecuadamente, se debe realizar un plan de seguimiento o evaluación periódica, que permita reconocer la efectividad de las mismas (INCIBE, 2015).
+    p.mb-3(data-aos="flip-left") Las acciones adelantadas a partir del ejercicio de evaluación, deberán de reducir considerablemente las probabilidades de que las vulnerabilidades sean aprovechadas por las amenazas, y estas generen un incidente que lleve a la organización a un incidente que afecte sus operaciones, e incluso posibilite perder parte de su información, para garantizar que las acciones sean aplicadas adecuadamente, se debe realizar un plan de seguimiento o evaluación periódica, que permita reconocer la efectividad de las mismas (INCIBE, 2015).
     p.mb-5(data-aos="flip-left") Estas evaluaciones deben ser establecidas a partir de métricas y mediciones que permitan establecer el nivel de seguridad, las cuales deberán ser:
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
@@ -351,7 +351,7 @@
           .tarjeta.color-primario
             .p-4
               h4 Métrica directa
-              p Está de centra en la velocidad de ejecución, defectos encontrados en una cantidad de tiempo, costo, tamaño de memoria usada, número de líneas de código, entre otros.
+              p Esta se centra en la velocidad de ejecución, defectos encontrados en una cantidad de tiempo, costo, tamaño de memoria usada, número de líneas de código, entre otros.
                  
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-12.col-lg-10.mb-4(data-aos="zoom-in-down")
@@ -385,8 +385,8 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 8. </b> <i>Niveles de decisión de una organización</i>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/fig-8a.svg', alt='En la figura se observa el nivel estratégico con administración de riesgos, objetivos de negocio, cumplimiento. Nivel táctico con servicio, aplicaciones, perímetro, Nivel operativo con integridad, disponibilidad, confidencialidad.')
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/fig-8b.svg', alt='En la figura se observa el nivel estratégico con administración de riesgos, objetivos de negocio, cumplimiento. Nivel táctico con servicio, aplicaciones, perímetro, Nivel operativo con integridad, disponibilidad, confidencialidad.') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/fig-8a.svg', alt='En la figura se observa el nivel estratégico con administración de riesgos, objetivos de negocio, cumplimiento. Nivel táctico con servicio, aplicaciones, perímetro. Nivel operativo con integridad, disponibilidad, confidencialidad.')
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema2/fig-8b.svg', alt='En la figura se observa el nivel estratégico con administración de riesgos, objetivos de negocio, cumplimiento. Nivel táctico con servicio, aplicaciones, perímetro. Nivel operativo con integridad, disponibilidad, confidencialidad.') 
 
     p.mb-5(data-aos="flip-left") A continuación, se presenta una descripción más detallada de cada nivel de decisión, desde lo estratégico, táctico y operativo:
 
@@ -414,13 +414,13 @@
             | Conocer el número de mensajes salientes con #[em spyware] o virus.
           li.mb-0
             i.fas.fa-circle.fa-cfx(style="color:#304C8E")
-            | Numero de mensajes de #[em spam] detectado respecto al número total de mensajes ignorados.
+            | Número de mensajes de #[em spam] detectado respecto al número total de mensajes ignorados.
           li.mb-0
             i.fas.fa-circle.fa-cfx(style="color:#304C8E")
             | Número de estaciones de trabajo en funcionamiento configuradas correctamente respecto total de las estaciones de trabajo.
           li.mb-0
             i.fas.fa-circle.fa-cfx(style="color:#304C8E")
-            | Numero de #[em spyware] o virus detectados en estaciones de trabajo o servidores.
+            | Número de #[em spyware] o virus detectados en estaciones de trabajo o servidores.
           li.mb-0
             i.fas.fa-circle.fa-cfx(style="color:#304C8E")
             | Propósito de estas métricas: desempeño de las tecnologías de seguridad informática.
@@ -532,12 +532,12 @@ export default {
     altImg7: `En la figura se observa los 18 controles para salvaguardas:
 1. Inventario y control de los activos empresariales.
 2. Inventario y control de activos de software.
-3. protección de datos.
+3. Protección de datos.
 4. Configuración segura de activos de software.
 5. Gestión de cuentas.
 6. Gestión del control de acceso.
 7. Gestión continua de vulnerabilidades.
-8. gestión de registro de auditoria.
+8. Gestión de registro de auditoria.
 9. Protección de correo electrónico y navegador web.
 10. Defensas contra el malware.
 11. Recuperación de datos.

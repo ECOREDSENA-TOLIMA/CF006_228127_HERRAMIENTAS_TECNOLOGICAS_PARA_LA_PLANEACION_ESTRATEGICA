@@ -51,7 +51,7 @@
         .row
           .col-md-5.col-12.mb-4.mb-md-0
             h4 Planeación
-            p Etapa en donde se define el alcance del procedimiento de gestión de vulnerabilidades, se identifica cual será el campo de evaluación o cuales activos serán objetos de la revisión.
+            p Etapa en donde se define el alcance del procedimiento de gestión de vulnerabilidades, se identifica cuál será el campo de evaluación o cuáles activos serán objetos de la revisión.
           .col-md-7.col-12
             figure
               img(src='@/assets/curso/temas/tema1/tema1-2.png', alt='')
@@ -129,7 +129,7 @@
           img.d-block.d-md-none(src='@/assets/curso/temas/tema1/fig-4b.svg', alt='En la figura se representa que la estructura está basada en identificar, proteger, detectar, responder y recuperar.') 
           figcaption Nota: tomado de #[a(href="https://www.nist.gov/cyberframework" target="_blank" style="color:blue") https://www.nist.gov/cyberframework]
 
-    p.mb-5(data-aos="flip-left") Estas funciones del marco de trabajo, conlleva a desarrollar una serie de actividades basadas en categorías, encaminadas a reducir los riesgos que se pueden presentar y afectar la información de una organización, a continuación, se puede observar un resumen de estas categorías y actividades que se desarrollan para la adecuada gestión de vulnerabilidades.
+    p.mb-5(data-aos="flip-left") Estas funciones del marco de trabajo, conlleva desarrollar una serie de actividades basadas en categorías, encaminadas a reducir los riesgos que se pueden presentar y afectar la información de una organización, a continuación, se puede observar un resumen de estas categorías y actividades que se desarrollan para la adecuada gestión de vulnerabilidades.
 
     .row.justify-content-center.mb-4
       .col-12.col-lg-12(data-aos="fade-left")
@@ -226,7 +226,7 @@
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-down") 
       .col-lg-9.col-12.mb-3.mb-lg-0
         p.mb-3(data-aos="flip-left") Organización sin fines lucrativos, la cual busca ayudar a visibilizar las vulnerabilidades en aplicaciones para el mejoramiento de la seguridad, a partir de una adecuada gestión del riesgo, siendo este un pilar fundamental para el desarrollo y aplicación de su metodología.
-        p.mb-4(data-aos="flip-left") Owasp, provee de #[em framework] abierto el cual permite aplicar auditorias en aplicaciones en especial de tipo #[em web], basados principalmente en pruebas de caja blanca y caja negra y a partir de su ejercicio identificar las vulnerabilidades más representativas y presentes en la actualidad en su Owasp top 10.
+        p.mb-4(data-aos="flip-left") Owasp, provee de #[em framework] abierto el cual permite aplicar auditorías en aplicaciones en especial de tipo #[em web], basados principalmente en pruebas de caja blanca y caja negra y a partir de su ejercicio identificar las vulnerabilidades más representativas y presentes en la actualidad en su Owasp top 10.
         .p-4.cajon.color-primario.mb-5(data-aos="fade-down-right")
           p Lo anterior permite generar reportes sobre las vulnerabilidades que más se encuentran en las aplicaciones #[em web], en su reporte el #[em Owasp Top] 10 2021, se puede apreciar la clasificación frente al informe previo del año 2017, consultando en material complementario de esta guía.
           p.mb-0 En este reporte se observa el comportamiento de las vulnerabilidades identificadas, teniendo en cuenta:
@@ -283,7 +283,7 @@
             p.ms-3.mb-1 • Robo de datos sensibles de la empresa.
             p.ms-3 • Acceso a sistemas internos de la empresa.
 
-    p.mb-4(data-aos="flip-left") Dado lo anterior, Owasp, se ha vuelto una metodología practica para la identificación de vulnerabilidades en las aplicaciones #[em web] más utilizada por los equipos de desarrollo en los últimos años; quienes quieran explorar y hacer uso de esta metodología, en el material complementario se puede consultar su documento oficial.
+    p.mb-4(data-aos="flip-left") Dado lo anterior, Owasp, se ha vuelto una metodología práctica para la identificación de vulnerabilidades en las aplicaciones #[em web] más utilizada por los equipos de desarrollo en los últimos años; quienes quieran explorar y hacer uso de esta metodología, en el material complementario se puede consultar su documento oficial.
 
     .h4.py-4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas.d-none.d-sm-none.d-md-inline-flex ISSAF - #[em Information Systems Security Assessment Framework]
@@ -298,7 +298,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/tema1-10.svg', alt='')
         h4.text-center Planeación y preparación
-        p La cual establece los pasos iniciales para el desarrollo de la auditoria y ejercicios de testeo.
+        p La cual establece los pasos iniciales para el desarrollo de la auditoría y ejercicios de testeo.
         p Entre las actividades relacionadas se encuentran: identificación de interesados, reuniones de apertura, definición de enfoque y metodología y cronograma de tiempo.
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
@@ -422,7 +422,7 @@
                   p.mb-1 • Evaluación de controles de acceso.
                   p.mb-1 • Revisión de respuesta de alarmas.
                   p.mb-1 • Revisión de ubicación.
-                  p.mb-1 • Revisión de entorno.s
+                  p.mb-1 • Revisión de entornos.
 
     p.mb-5(data-aos="flip-left") Detalles de esta metodología, pueden ser consultados en material complementario.
 
@@ -456,7 +456,7 @@
       SlyderA(tipo="b")
         .row
           .col-md-5.col-12.mb-4.mb-md-0
-            h4 #[em Inviciti]
+            h4 #[em Invicti]
             p Esta herramienta es un escáner para la búsqueda de vulnerabilidades de tipo #[em sql injection en API’s] y aplicaciones #[em web], esta herramienta permite reconocer las vulnerabilidades verificando que estas no sean falsos positivos.
           .col-md-7.col-12
             figure
@@ -567,7 +567,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-20.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Antes de iniciar con los ejercicios de evaluación, es importante que se tenga claridad sobre cuáles serán los activos de información que se evaluaran, y en cuales deberá presentar una gran atención, es por ellos que reconocer los activos, permite en primer lugar, reconocer la importancia para la organización, así como establecer la herramienta y técnica a utilizar para su evaluación.
+        p.mb-0 Antes de iniciar con los ejercicios de evaluación, es importante que se tenga claridad sobre cuáles serán los activos de información que se evaluarán, y en cuáles deberá presentar una gran atención, es por ellos que reconocer los activos, permite en primer lugar, reconocer la importancia para la organización, así como establecer la herramienta y técnica a utilizar para su evaluación.
           br
           br
           | De acuerdo a la “#[b Guía para la Gestión y Clasificación de Activos de Información]”, de MinTic (2016), las organizaciones deberían de realizar un reconocimiento y clasificación de sus activos de información, con el fin de ser utilizados en los diferentes ejercicios de evaluación de seguridad, este reconocimiento busca primordialmente:
@@ -577,7 +577,7 @@
         ul.lista-ul.mb-2
           li
             i.fas.fa-circle.fa-cfx(style="color:#304C8E")
-            | Identificar los activos de la organización, esta identificación busca el reconocimiento de los aspectos básicos del activo como: nombre, observación, proceso al cual sirve, propietario, custodio, personas a las cuales tienen acceso y que tipo de acceso, entre otros.
+            | Identificar los activos de la organización, esta identificación busca el reconocimiento de los aspectos básicos del activo como: nombre, observación, proceso al cual sirve, propietario, custodio, personas a las cuales tienen acceso y qué tipo de acceso, entre otros.
           li
             i.fas.fa-circle.fa-cfx(style="color:#304C8E")
             | Identificar el propietario de la información.
@@ -661,7 +661,7 @@
               | Modelo.
             li.mb-0
               i.fas.fa-circle.fa-cfx(style="color:#304C8E")
-              | Ultimo mantenimiento.
+              | Último mantenimiento.
             li.mb-0
               i.fas.fa-circle.fa-cfx(style="color:#304C8E")
               | Estado de garantías.
@@ -731,7 +731,7 @@
               i.fas.fa-circle.fa-cfx(style="color:#304C8E")
               | Ejercicios de #[em pentesting].
 
-    p.mb-5(data-aos="flip-left") Dependiendo del activo de información y de la validación a realizar, el auditor puede seleccionar la técnica que más se ajustes y permita recolectar la información necesaria para establecer un resultado confiable.
+    p.mb-5(data-aos="flip-left") Dependiendo del activo de información y de la validación a realizar, el auditor puede seleccionar la técnica que más se ajuste y permita recolectar la información necesaria para establecer un resultado confiable.
 
 
 
@@ -749,10 +749,10 @@ NIST National Institute of Standards and Technology:
 Instituto Nacional de Estándares y Tecnología (nist.gov)
 OWASP Open Web Aplication Security Projects:
 OWASP Foundation, la base de código abierto para la seguridad de las aplicaciones | Fundación OWASP
-ISSAF Information Systems Security Assesment (www.oissg.org) 
+ISSAF Information Systems Security Assessment (www.oissg.org) 
 OSSTMM Open Source Security Testing Methodology
 OSSTMM, Manual de la Metodología Abierta de Testeo de Seguridad - DragonJAR
-PTES Penetratiion Testing Excecution Standard
+PTES Penetration Testing Excecution Standard
 El estándar de ejecución de pruebas de penetración (pentest-standard.org)
 WASC-TC Web Aplication Security Consortium Threat Classification
 El Consorcio de Seguridad de Aplicaciones Web / Clasificación de Amenazas (webappsec.org)`,

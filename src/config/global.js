@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Evaluación de la seguridad de la información en las organizaciones',
+      'Evaluación de la seguridad de la información en organizaciones',
     descripcionCurso:
       'La seguridad de la información en las organizaciones es un proceso que se sugiere, todas deben realizarlo con el fin de evaluar las estrategias adoptadas para la gestión de las vulnerabilidades y que estas no puedan afectarla, generando incidentes que pueden terminar en hechos más complejos para la misma organización.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -133,7 +133,7 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA_06_228127.zip',
+        download: 'downloads/CFA_06_228127_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -149,51 +149,51 @@ export default {
   },
   complementario: [
     {
-      tema: '1. Metodologías',
+      tema: '1.1 Metodologías',
       referencia:
         '<em>NIST National Institute of Standards and Technology. (2023). CYBERSECURITY FRAMEWORK</em>',
       tipo: 'Web',
       link: 'https://www.nist.gov/cyberframework/framework',
     },
     {
-      tema: '1. Metodologías',
+      tema: '1.1 Metodologías',
       referencia:
         '<em>OWASP Open Web Aplication Security Projects. (2023). WSTG - Stable.</em>',
       tipo: 'Web',
       link: 'https://owasp.org/www-project-web-security-testing-guide/stable/',
     },
     {
-      tema: '1. Metodologías',
+      tema: '1.1 Metodologías',
       referencia:
-        '<em>ISSAF. (2006). Information Systems Security Assesment Framework ISSAF Draft 0.2.1</em>',
+        '<em>ISSAF. (2006). Information Systems Security Assessment Framework ISSAF Draft 0.2.1</em>',
       tipo: 'Documento',
       link:
         'http://cuchillac.net/archivos/pre_seguridad_pymes/2_hakeo_etico/lects/metodologia_oissg.pdf',
     },
     {
-      tema: '1. Metodologías',
+      tema: '1.1 Metodologías',
       referencia:
         '<em>ISECOM. OSSTMM Open Source Security Testing Methodology. (s.f). The open source security testing methodology manual.</em>',
       tipo: 'Documento',
       link: 'https://www.isecom.org/OSSTMM.3.pdf',
     },
     {
-      tema: '1. Metodologías',
+      tema: '1.1 Metodologías',
       referencia:
-        '<em>PTES Penetratiion Testing Excecution Standard. (2012). PTES Technical Guidelines.</em>',
+        '<em>PTES Penetration Testing Excecution Standard. (2012). PTES Technical Guidelines.</em>',
       tipo: 'Guía',
       link:
         'http://www.pentest-standard.org/index.php/PTES_Technical_Guidelines',
     },
     {
-      tema: '1. Metodologías',
+      tema: '1.1 Metodologías',
       referencia:
         '<em>OWASP TOP 10. ¿Qué ha cambiado en el Top 10 para 2021?</em>',
       tipo: 'Web',
       link: 'https://owasp.org/Top10/',
     },
     {
-      tema: '1. Metodologías',
+      tema: '1.1 Metodologías',
       referencia:
         '<em>Metodología ISSAF. Approach & Methodology. Página 14.</em>',
       tipo: 'Web',
@@ -203,7 +203,7 @@ export default {
     {
       tema: '1.3. Activos de información',
       referencia: 'MinTIC. (2020). Instrumento de evaluación MSPI. ',
-      tipo: 'Hoja de calculo',
+      tipo: 'Hoja de cálculo',
       link:
         'https://www.mintic.gov.co/gestionti/615/articles-5482_Instrumento_Evaluacion_MSPI.xlsx',
     },
@@ -224,7 +224,7 @@ export default {
     {
       tema: '2.5 Establecimiento de salvaguardas',
       referencia:
-        'ICONTEC (2018). NORMA GTC-ISO- 19011:2018 Directrices para la auditoría de los sistemas de gestión.',
+        'Universidad Nacional de Colombia (2018). Guía técnica colombiana ISO 19011: 2018.',
       tipo: 'Libros digitales',
       link:
         'http://siga.unal.edu.co/images/Modulos/Ova/Capacitacion_Guia_tecnica_auditoria_NTC_ISO_19011_2018.pdf',
@@ -232,7 +232,7 @@ export default {
     {
       tema: '2.5 Establecimiento de salvaguardas',
       referencia:
-        'ICONTEC (2018). NTC-ISO 31000:2018 - Gestión del Riesgo. Directrices.',
+        'Norma Internacional ISO 31000. (2018). Administración/ Gestión de riesgos – Lineamientos guía.',
       tipo: 'Libros digitales',
       link:
         'https://www.ramajudicial.gov.co/documents/5454330/14491339/Norma.ISO.31000.2018.Espanol.pdf/cb482b2c-afd9-4699-b409-0732a5261486',
@@ -240,7 +240,7 @@ export default {
     {
       tema: '2.5 Establecimiento de salvaguardas',
       referencia:
-        'ICONTEC (2018). NTC-ISO-IEC 27001:2013 - Tecnología de la información. Técnicas de seguridad. Sistemas de gestión de la seguridad de la información. requisitos.',
+        'ICONTEC (2018). NTC-ISO-IEC 27001:2013 - Tecnología de la información. Técnicas de seguridad. Sistemas de gestión de la seguridad de la información. Requisitos.',
       tipo: 'Libros digitales',
       link:
         'https://serviciocivil.gov.co/sites/default/files/marco-legal/2006_03_22_NTC-ISO-IEC%2027001.pdf',
@@ -257,7 +257,7 @@ export default {
       tema: '2.5 Establecimiento de salvaguardas',
       referencia:
         'Formato registro de salvaguardar para la gestión del riesgo.',
-      tipo: 'Web',
+      tipo: 'Hoja de cálculo',
       link:
         'https://f.hubspotusercontent30.net/hubfs/4444632/Declaraci%C3%B3n%20de%20aplicabilidad%20Excel%20-%20Anexo%20ISO%20270012013.xlsx',
     },
@@ -265,9 +265,6 @@ export default {
       tema: '2.6 Evaluación del riesgo',
       referencia:
         'MinTIC. Formato Instrumentos de evaluación de la seguridad de la información. ',
-      tipo: 'Web',
-      link:
-        'https://www.mintic.gov.co/gestionti/615/articles-5482_Instrumento_Evaluacion_MSPI.xlsx',
     },
   ],
   glosario: [
@@ -281,9 +278,9 @@ export default {
       significado: 'Conjunto de información que respaldan un hecho o evento.',
     },
     {
-      termino: 'Hallazgo de auditoria',
+      termino: 'Hallazgo de auditoría',
       significado:
-        'Son los evento o registros que sirven para reconocer su un control se está aplicando adecuadamente o no.',
+        'son los eventos o registros que sirven para reconocer si un control se está aplicando adecuadamente o no.',
     },
     {
       termino: 'Indicador',

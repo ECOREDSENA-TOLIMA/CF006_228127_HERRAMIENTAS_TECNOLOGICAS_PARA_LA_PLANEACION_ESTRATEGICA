@@ -537,7 +537,7 @@ export default {
 5. Gestión de cuentas.
 6. Gestión del control de acceso.
 7. Gestión continua de vulnerabilidades.
-8. Gestión de registro de auditoria.
+8. Gestión de registro de auditoría.
 9. Protección de correo electrónico y navegador web.
 10. Defensas contra el malware.
 11. Recuperación de datos.

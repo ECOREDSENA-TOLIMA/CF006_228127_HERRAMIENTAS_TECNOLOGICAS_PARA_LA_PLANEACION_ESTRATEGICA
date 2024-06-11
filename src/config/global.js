@@ -261,11 +261,6 @@ export default {
       link:
         'https://f.hubspotusercontent30.net/hubfs/4444632/Declaraci%C3%B3n%20de%20aplicabilidad%20Excel%20-%20Anexo%20ISO%20270012013.xlsx',
     },
-    {
-      tema: '2.6 Evaluación del riesgo',
-      referencia:
-        'MinTIC. Formato Instrumentos de evaluación de la seguridad de la información. ',
-    },
   ],
   glosario: [
     {
